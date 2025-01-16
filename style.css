@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend+Exa:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: 'Funnel Sans';
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header h1{
+    font-variant: small-caps;
+    font-family: 'Lexend Exa';
+    font-size: 4em;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 50px;
+    font-family: 'Lexend Exa';
+    font-size: 3vw;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.226);
+}
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.253);
+    display: inline-block;
+    padding: 5px;
+}
+section#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
